@@ -1,4 +1,4 @@
-node{
+node ('wallmart-node'){
     def mavenHome = tool name: "maven3.8.2"
     echo "GitHub BranchName ${env.BRANCH_NAME}"
     echo "JENKINS JOBNumber ${env.BUILD_NUMBER}"
